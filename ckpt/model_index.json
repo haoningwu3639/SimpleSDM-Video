@@ -1,0 +1,25 @@
+{
+    "_class_name": "TextToVideoSDPipeline",
+    "_diffusers_version": "0.17.0.dev0",
+    "scheduler": [
+      "diffusers",
+      "DDIMScheduler"
+    ],
+    "text_encoder": [
+      "transformers",
+      "CLIPTextModel"
+    ],
+    "tokenizer": [
+      "transformers",
+      "CLIPTokenizer"
+    ],
+    "unet": [
+      "diffusers",
+      "UNet3DConditionModel"
+    ],
+    "vae": [
+      "diffusers",
+      "AutoencoderKL"
+    ]
+  }
+  

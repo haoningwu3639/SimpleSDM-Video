@@ -1,0 +1,12 @@
+pretrained_model_path: "./ckpt/zeroscope_v2_576w/"
+logdir: "./runs"
+validation_sample_logger:
+    num_inference_steps: 40
+    guidance_scale: 9.0
+gradient_accumulation_steps: 1
+train_steps: 5000
+validation_steps: 100
+checkpointing_steps: 500
+seed: 6666
+mixed_precision: 'fp16'
+learning_rate: 1e-5
