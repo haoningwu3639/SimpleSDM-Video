@@ -1,8 +1,10 @@
 # SimpleSDM-Video
- A simple and flexible PyTorch implementation of Video StableDiffusion (ZeroScope_v2) based on diffusers.
+ A simple and flexible PyTorch implementation of Video Generation StableDiffusion (ZeroScope_v2) based on diffusers.
 
 <div align="center">
    <img src="inference/output.gif">
+</div>
+<div align="center">
    A white cat is running in the rain.
 </div>
 
