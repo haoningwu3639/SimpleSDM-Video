@@ -44,4 +44,4 @@ CUDA_VISIBLE_DEVICES=0 accelerate launch inference.py --prompt "A white cat is r
 ```
 
 ## Acknowledgements
-Many thanks to the code bases from [diffusers](https://github.com/huggingface/diffusers) and pre-trained model parameters from [ZeroScope_v2](https://huggingface.co/cerspense/zeroscope_v2_576w/tree/main).
+Many thanks to the code bases from [diffusers](https://github.com/huggingface/diffusers) and [SimpleSDM](https://github.com/haoningwu3639/SimpleSDM), and pre-trained model parameters from [ZeroScope_v2](https://huggingface.co/cerspense/zeroscope_v2_576w/tree/main).
